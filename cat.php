@@ -35,9 +35,7 @@
 			}else{
 				return $('.modal-window');
 				}
-			
 			}
-		
 		}
 		$('.tov a').bind('click', function(){
 			var data = $(this).attr('data');
@@ -53,7 +51,7 @@
 					modal.append(msg);
 				}
 			});
-			$('<a>').attr('href', '#').addClass(modal-window.close).html('&times').click(function(event){
+			$('<a>').attr('href', '#').addClass('modal-close-btn').html('&times').click(function(event){
 				event.preventDefault();
 				modal.remove();
 				$('#jquery-overlay').remove();

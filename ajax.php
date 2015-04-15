@@ -9,7 +9,7 @@
 	while($tovar = mysql_fetch_array($tov)) {
 		echo $tovar['name'];
 		echo "<br>";
-		echo "<img src='/media/uploads/".$tovar['picture']."' />";
+		echo "<img src='/media/uploads/".$tovar['picture']."' width='480px'/>";
 		echo "<br>";
 		echo $tovar['body'];
 		echo "<br>";

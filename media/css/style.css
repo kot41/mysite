@@ -173,13 +173,16 @@ body{
 .modal-close-btn {
 	position: absolute;
 	top: 1px;
-	right: 1px;
+	right: 11px;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	color: green;
-	font-size: 12px;
-
+	font-size: 24px;
+}
+.modal-close-btn:hover{
+	text-decoration: none;
+	color: green;
 }
 
 .modal-close-btn: before {
