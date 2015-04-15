@@ -1,0 +1,222 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+#header {
+	height: 200px;
+	background: url(../image/oblako02.jpg);
+	margin-bottom: 85px;
+}
+
+.logo {
+	width: 226px;
+	height: 245px;
+	float: left;
+	margin-left: 128px;
+	margin-top: 20px;
+	
+}
+
+.logo-text {
+		float: right;
+		color: #666666;
+		font-size: 20px;
+		margin-top: 40px;
+		margin-right: 100px;
+		
+		
+}
+
+.logo-text a:hover {
+		text-decoration: none;
+}
+
+.topmenu {
+	display: -moz-box;
+	display: -swebkit-flex;
+	width: 100%;
+	display: flex;
+	margin: 0 auto 40px auto;
+	flex-direction: row;
+  
+	
+	
+}
+
+.topmenu a {
+		display: block;
+		-moz-box-flex: 1;  // все ссылки равны икс
+		-webkit-box-flex: 1;
+		flex: 1;
+		font-size: 18px;
+		padding: 10px;
+		color: #666666;
+		background:  ;
+		border-right: 1px solid #999999;
+		text-align: center;
+		text-decoration: none;
+}
+
+.topmenu a:hover {
+	background: #ebebeb;
+	color: #337ab7;
+}
+
+ .topmenu a:last-child { 
+	border-right: none;
+}
+
+.menu {
+	margin-top: 25px;
+}
+
+.menu a{
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;	
+}
+
+@media screen and (max-width: 768px) {  // для размеров дисплея не более 768px
+	.topmenu {
+		flex-direction: column;
+	}
+	.logo {
+		display: none;
+	}
+}
+
+.container {
+	background: #ebebeb;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.col-md-8 h1 {
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	background: url(../image/oblako16.jpg);
+	
+	
+}
+
+#footer span {
+	font: 16px Verdana;
+	line-height: 32px;
+	color: #666666;
+}
+
+#footer h3 {
+	display: block;
+	padding-top: 30px;
+
+}
+
+#footer a {
+	font-size: 20px;
+	margin: 15px;
+	line-height: 3.5;
+}
+
+
+.botmenu {
+	margin: 0 auto;
+	text-align: center;
+	/* border-bottom: 1px solid #337ab7; */
+}
+/* цвет для бг мид #99cccc;*/
+
+.form_style {
+ margin-right: 250px;
+}
+
+.error_auth {
+	color: red;
+	font-size: 16px;
+
+}
+
+.tov {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #000000;
+	box-shadow: 3px 3px 3px 3px block;
+	float: left;
+
+}
+
+.form_auth {
+	
+
+}
+
+.modal-window {
+	position: absolute;
+	top: 150px;
+	width: 500px;
+	margin-left: -250px;
+	background: #FFF;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 10px;
+	left: 50%; 
+	
+}
+
+.modal-close-btn {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: green;
+	font-size: 12px;
+
+}
+
+.modal-close-btn: before {
+	position: relative;
+	font-size: 12px;
+	top: -1px;
+	content: 'Закрыть';
+	
+
+
+}
+
+#jquery-overlay {     /*затеняет фон вокруг окна*/ 
+	background: #000;
+	opacity: 0.7;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
